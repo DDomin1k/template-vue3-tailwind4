@@ -1,7 +1,15 @@
-<script setup></script>
+<script>
+	import OptimizedTransactionsTable from '@/components/OptimizedTransactionsTable.vue'
+
+	export default {
+		components: {
+			OptimizedTransactionsTable,
+		},
+	}
+</script>
 
 <template>
-	<h1 class="text-red-700">init</h1>
+	<OptimizedTransactionsTable />
 </template>
 
 <style></style>
